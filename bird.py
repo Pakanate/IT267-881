@@ -24,6 +24,7 @@ if __name__ == '__main__':
     #error
     #พยายามเรียก local varibale
     #print(name)#NameError: name 'name' is not defined
+    
     #พยายามเรียก global varibale ผ่าน class
     #print(Bird.bird_type)
     #type object 'Bird' has no attribute 'bird_type'.
