@@ -9,7 +9,7 @@ class Shape:
 
     @shape.setter
     def shape(self,value):
-        self.shape = value
+        self.__shape = value
 
     #area property
     @property
@@ -18,7 +18,7 @@ class Shape:
     
     @area.setter
     def area(self,value):
-        self.area = value
+        self.__area = value
     
     #abstract method
     def compute_area(self):
