@@ -12,3 +12,5 @@ from motocycle import Motocycle
 m1 = Motocycle("Honda",2,100,"V345")
 m1.set_cc(1200)
 m1.v_detail()
+m1.set_vin("V256")
+m1.v_detail()
